@@ -1,0 +1,120 @@
+#everything{
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+        width: 100%;
+        vertical-align: middle;
+        align-self: center;
+        margin-top: 10px;
+}
+
+#body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p, li{
+    font-family: 'Sarabun', sans-serif;
+    text-align: left;
+}
+
+section{
+    padding: 1em;
+}
+
+#logo img{
+    margin: 0;
+}
+
+#logo{
+    width: 50px;
+    vertical-align: middle;
+}
+
+#links{
+    vertical-align: middle;
+    align-self: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-gap: 1em;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: left;
+    padding-bottom: 1em;
+}
+
+#links a{
+    font-family: 'Sarabun', sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: #FFE5B2;
+}
+
+@media (min-width: 768px){
+    
+    #everything{
+        width: 90%;
+        height: 90vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #schedule{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 1.75em;
+    }
+
+   p{
+        font-size: 1.5em;
+    }
+
+    li{
+        font-size: 1.4em;
+    }
+
+    h3{
+        font-size: 1.35em;
+    }
+
+}
+
+@media (min-width: 992px){
+    #everything{
+        width: 70%;
+        height: 90vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1280px){
+    #everything{
+        width: 50%;
+        height: 80vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1400px){
+
+}

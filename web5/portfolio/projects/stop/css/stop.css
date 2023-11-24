@@ -1,0 +1,146 @@
+#everything{
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#intro h1,p{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#des p{
+    text-align: left;
+}
+
+iframe{
+    width: 100%;
+    vertical-align: middle;
+    align-self: center;
+    display: grid;
+}
+
+#video{
+    align-self: center;
+}
+
+#explain h1, p{
+    text-align: left;
+}
+
+p{
+    font-size: 1.2em;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1{
+    font-size: 1.5em;
+    font-family:'Cardo', serif; 
+}
+
+section{
+    padding: 15px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    justify-content: center;
+    grid-gap: 2em;
+    margin-top: 3em;
+    padding-bottom: 2em;
+    font-size: 1em;
+}
+
+#logo img{
+    margin: 0;
+}
+
+#logo{
+    width: 50px;
+    vertical-align: middle;
+}
+
+#links{
+    vertical-align: middle;
+    align-self: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-gap: 1em;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: left;
+    padding-bottom: 15px;
+}
+
+#links a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 768px){
+    footer{
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 768px){
+    #title{
+        font-size: 2em;
+    }
+
+    #des{
+        font-size: 1.5em;
+    }
+
+    #explain h1{
+        font-size: 2.2em;
+    }
+
+    #explain p{
+        font-size: 1.5em;
+    }
+
+    #links a{
+        font-size: 1.4em;
+    }
+
+    footer{
+        grid-gap: 15em;
+    }
+
+}
+
+@media (min-width: 992px){
+    #everything{
+        width: 60%;
+        height: 90vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 992px){
+    #everything{
+        width: 60%;
+        height: 90vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1280px){
+    #everything{
+        width: 50%;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

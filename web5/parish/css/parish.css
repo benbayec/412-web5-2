@@ -1,0 +1,199 @@
+#everything{
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p, li{
+    font-family: 'Sarabun', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    vertical-align: middle;
+    align-self: center;
+    margin-top: 10px;
+}
+
+iframe{
+    width: 100%;
+    vertical-align: middle;
+    align-self: center;
+    margin-top: 10px;
+}
+
+#greet h1{
+    text-align: center;
+}
+
+#schedule{
+    display: grid;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 7px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    border: black solid 2px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+#weekend, #weekday, #novena, #holy{
+    padding: 4px;
+    list-style-type: none;
+}
+
+#center{
+    text-align: center;
+}
+
+#location{
+    padding-bottom: 20px;
+}
+
+body{
+    background-color: #FFE5B2;
+}
+
+#welcome, #time, #sacrements, #hall, #faith,#finance,#location{
+    padding: 15px;
+}
+
+#logo img{
+    margin: 0;
+}
+
+#logo{
+    width: 50px;
+    vertical-align: middle;
+}
+
+#links{
+    vertical-align: middle;
+    align-self: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-gap: 1em;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: left;
+    padding-bottom: 1em;
+}
+
+#links a{
+    font-family: 'Sarabun', sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 768px){
+    #links{
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 768px){
+
+    #everything{
+        width: 90%;
+        height: 90vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #schedule{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 1.75em;
+    }
+
+    li,p{
+        font-size: 1.5em;
+    }
+
+    #finance{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        align-self: center;
+        grid-gap: 12px;
+    }
+
+    #links a{
+        font-size: 1.4em;
+    }
+
+}
+
+@media (min-width: 992px){
+    #everything{
+        width: 70%;
+        height: 90vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1280px){
+    #everything{
+        width: 50%;
+        height: 80vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1400px){
+
+}
+
+/*rejects
+
+/* #rem img{
+    width: 100%;
+    vertical-align: middle;
+    align-self: center;
+    margin-top: 10px;
+}
+
+#celeb img{
+    width: 100%;
+    vertical-align: middle;
+    align-self: center;
+    margin-top: 10px;
+}
+
+#bird img{
+    width: 100%;
+    vertical-align: middle;
+    align-self: center;
+    margin-top: 10px;
+} */
+
+/* #church img{
+    width: 100%;
+    vertical-align: middle;
+    align-self: center;
+} */

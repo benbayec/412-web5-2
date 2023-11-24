@@ -1,0 +1,203 @@
+/* section{
+    border: black solid 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+
+
+#plea h1{
+    text-align: left;
+}
+
+#hey h1{
+    text-align: left;
+} */
+
+#body{
+    margin: 0;
+    padding: 0;
+}
+
+#everything{
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    width: 100%;
+    vertical-align: middle;
+    align-self: center;
+}
+
+h1, h2{
+    font-family: 'Cardo', serif;
+}
+
+p, li{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#plea{
+    text-align: center;
+    margin: 0;
+}
+
+ #plea h1{
+    font-size: 2.35em;
+    margin: 0;
+}
+
+#plea p{
+    font-size: 1.2em;
+    margin: 0;
+}
+
+#look h1{
+    font-size: 2.35em;
+    text-align: center;
+    margin: 0;
+}
+
+#ako h1{
+    font-size: 3em;
+    margin: 0;
+}
+
+#ako{
+    padding-left: 2em;
+}
+
+#ako p{
+    margin: 0;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    justify-content: center;
+    grid-gap: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#logo img{
+    margin: 0;
+}
+
+#logo{
+    width: 50px;
+    vertical-align: middle;
+}
+
+#links{
+    vertical-align: middle;
+    align-self: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-gap: 1em;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: left;
+    padding-bottom: 15px;
+}
+
+#links a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    padding: 15px;
+}
+
+@media (min-width: 768px){
+
+    #intro{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        align-self: center;
+
+    }
+
+    #works{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        align-self: center;
+
+    }
+
+    #vault{
+        grid-column: 2 / 3;
+    margin-bottom: 0;
+    align-self: center;
+    }
+
+    #look{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        align-self: center;
+    }
+
+    #bio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        align-self: center;
+
+    }
+
+    footer{
+        grid-gap: 5em;
+    }
+
+    #links a{
+        font-size: 1.4em;
+    }
+}
+
+
+@media (min-width: 992px){
+    #everything{
+        width: 70%;
+        height: 90vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1200px){
+    #everything{
+        width: 60%;
+        height: 90vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #intro{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        align-self: center;
+    }
+}
+
+@media (min-width: 1400px){
+
+}
